@@ -11,8 +11,9 @@
 }
 
 body {
-  margin: 0;
+  margin: 20px;
   padding: 0;
+  border: 4px solid var(--secondary);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
@@ -44,10 +45,11 @@ header {
 header h1 {
   color: var(--heading);
   background-color: var(--secondary);
-  padding: 5px 1% 5px 6%;
-  margin: 0;
-  font-size: 4vw;
-  line-height: 1; 
+  padding:  2px 20px;
+  margin-right: 0;
+  font-size: 50px;
+  line-height: 1;
+  justify-content: ; 
 }
 
 nav {
@@ -93,32 +95,37 @@ main {
   background-blend-mode: soft-light;
   min-height: 30vh;
   color: var(--light);
-  padding: 2% 6%;
+  padding: 20px;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   text-align: right;
 }
 
 .hero-banner div {
-  flex: 0 0 90%;
+  flex: 0 0 70%;
+}
+
+.hero-banner img {
+  border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .hero-banner h2 {
   background-color: var(--secondary);
   color: var(--heading);
-  margin: 0;
+  margin-bottom: 100px;
   padding: 5px 10px;
   font-size: 2.3rem;
   line-height: 1.2;
   display: inline;
+  justify-content: center;
 }
 
-/* .page-wrapper {
-  max-width: 88%;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 .about-me {
   margin: 25px 0;
@@ -137,6 +144,7 @@ main {
   border-right: 4px solid var(--primary);
   font-size: 4vw;
   line-height: 1.1;
+  color: var(--heading);
 }
 
 .about-me > div {
