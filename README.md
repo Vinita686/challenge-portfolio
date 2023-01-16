@@ -8,7 +8,7 @@ I have completed the task by applying  Flexbox, Media-queries and CSS variables.
 - Added profile picture.
 - Targetted the links to blank.
 ## Mock-Up :
-![Screenshot](screenshot.png)
+![Screenshot](Mock-up.png)
 
 ## Submission :
 Deployed application URL :https://vinita686.github.io/my-portfolio/
